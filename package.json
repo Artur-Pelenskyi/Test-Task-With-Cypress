@@ -1,0 +1,25 @@
+{
+  "name": "test-task-with-cypress",
+  "version": "1.0.0",
+  "description": "[POC] Test framework for MVC TODO app",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:ToDoMVC": "cypress open --config-file cypress.config.js",
+    "cy:run:ToDoMVC": "cypress run --config-file cypress.config.js --record --key 46216992-157f-44dc-b1db-3f975d019580 --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-Pelenskyi/Test-Task-With-Cypress.git"
+  },
+  "author": "Artur Pelenskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-Pelenskyi/Test-Task-With-Cypress/issues"
+  },
+  "homepage": "https://github.com/Artur-Pelenskyi/Test-Task-With-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.3.3",
+    "cypress-if": "^1.10.5",
+    "cypress-real-events": "^1.10.3"
+  }
+}
